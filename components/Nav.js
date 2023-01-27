@@ -46,7 +46,7 @@ const Nav = () => {
                 setAngle("-1.4");
               }}
             >
-              <span className=" p-1.5 pr-[2.2vw] pl-[2.2vw] sm:pr-3 sm:pl-3 ">
+              <span className=" p-1.5 pr-[2.6vw] pl-[2.2vw] sm:pr-3 sm:pl-3 ">
                 Projects
               </span>
             </a>
@@ -65,7 +65,7 @@ const Nav = () => {
               }}
             >
               <span
-                className={`p-1.5  pr-[2.2vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}
+                className={`p-1.5  pr-[2.6vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}
               >
                 Shop
               </span>
@@ -82,7 +82,7 @@ const Nav = () => {
               setAngle("0");
             }}
           >
-            <span className={`p-1.5 pr-[2.2vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+            <span className={`p-1.5 pr-[2.6vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
               Instagram
             </span>
           </a>
@@ -105,7 +105,7 @@ const Nav = () => {
             </a>
           </Link>
 
-          <div
+          {/* <div
             onClick={() => {
               setCartOpen(!cartOpen);
             }}
@@ -123,7 +123,7 @@ const Nav = () => {
               </span>
             </span>
           </div>
-          <MiniCart cart={cart} />
+          <MiniCart cart={cart} /> */}
         </div>
       </div>
     </>
